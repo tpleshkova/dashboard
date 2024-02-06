@@ -9,32 +9,35 @@ dependencies:
     specifier: ^5.0.1
     version: 5.2.6(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/antd':
-    specifier: ^5.37.1
-    version: 5.37.2(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^5.37.4
+    version: 5.37.4(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/cli':
-    specifier: ^2.16.21
-    version: 2.16.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.16.24
+    version: 2.16.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/core':
-    specifier: ^4.46.1
-    version: 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^4.47.1
+    version: 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/devtools':
-    specifier: ^1.1.29
-    version: 1.1.30(@refinedev/cli@2.16.22)(@refinedev/core@4.46.2)(@refinedev/devtools-server@1.1.22)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.1.32
+    version: 1.1.32(@refinedev/cli@2.16.24)(@refinedev/core@4.47.1)(@refinedev/devtools-server@1.1.24)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/inferencer':
-    specifier: ^4.5.16
-    version: 4.5.17(@ant-design/icons@5.2.6)(@refinedev/antd@5.37.2)(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^4.5.20
+    version: 4.5.20(@ant-design/icons@5.2.6)(@refinedev/antd@5.37.4)(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(graphql-tag@2.12.6)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/kbar':
-    specifier: ^1.3.5
-    version: 1.3.5(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.3.6
+    version: 1.3.6(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@refinedev/nestjs-query':
     specifier: ^1.1.1
-    version: 1.1.1(@refinedev/core@4.46.2)(gql-query-builder@3.8.0)(graphql-request@5.2.0)(graphql-tag@2.12.6)(graphql-ws@5.14.3)
+    version: 1.1.1(@refinedev/core@4.47.1)(gql-query-builder@3.8.0)(graphql-request@5.2.0)(graphql-tag@2.12.6)(graphql-ws@5.14.3)
   '@refinedev/react-router-v6':
     specifier: ^4.5.5
-    version: 4.5.5(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react-router-dom@6.21.3)(react@18.2.0)
+    version: 4.5.5(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react-router-dom@6.21.3)(react@18.2.0)
   antd:
     specifier: ^5.0.5
     version: 5.13.3(react-dom@18.2.0)(react@18.2.0)
+  graphql-ws:
+    specifier: ^5.14.3
+    version: 5.14.3(graphql@16.8.1)
   react:
     specifier: ^18.0.0
     version: 18.2.0
@@ -2089,8 +2092,8 @@ packages:
     resolution: {integrity: sha512-Ba7HmkFgfQxZqqaeIWWkNK0rEhpxVQHIoVyW1YDSkGsGIXzcaW4deC8B0pZrNSSyLTdIk7y+5olKt5+g0GmFIQ==}
     dev: false
 
-  /@refinedev/antd@5.37.2(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-IJ0sQ4RBSC5xF31vLuLNTm8jL4GQgz3g2RxFm2Y9iY5V59lQWpnZQ0lFUGOEvDD0pWqXFxHsU7rGqao0v4nvbw==}
+  /@refinedev/antd@5.37.4(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-lXvrqzQutph4PL4jM/NRvBDBHAXb+shf3Hf+b7PzCOZMk/aw0uxn7co8aEFWHvYdX9ULc5X0Q6TqxTG1FUKjZQ==}
     peerDependencies:
       '@refinedev/core': ^4.46.1
       '@types/react': ^17.0.0 || ^18.0.0
@@ -2102,8 +2105,8 @@ packages:
     dependencies:
       '@ant-design/icons': 5.0.1(react-dom@18.2.0)(react@18.2.0)
       '@ant-design/pro-layout': 7.17.12(antd@5.13.3)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/ui-types': 1.22.4(@refinedev/core@4.46.2)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/ui-types': 1.22.4(@refinedev/core@4.47.1)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
@@ -2120,11 +2123,11 @@ packages:
       - supports-color
     dev: false
 
-  /@refinedev/cli@2.16.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-MNWXPg84JUpUBjkCxLrEfl8ImJ+34Tf4zKzY7nEfNvfy49IFkIh/YBrTSs9ggSwcTqBTMCt8Hdx2zosxYFe2ww==}
+  /@refinedev/cli@2.16.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xN7xJMbA8tyHCIvTR6ZuvMNEbEDzjGH3XF4CKhRql7k5Q8TCpWhmUZ2cFHEIa5RpdYaboS7lFAdwwm2uW0rLVQ==}
     hasBin: true
     dependencies:
-      '@refinedev/devtools-server': 1.1.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-server': 1.1.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       boxen: 5.1.2
       cardinal: 2.1.1
       center-align: 1.0.1
@@ -2174,8 +2177,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@refinedev/core@4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-3zimHEow158sa3FrijZpEZ0iRc3QdHf6jvEHSVR7erszJtJC2DvcSJSDRqrfFt/qwQpNfxLD9AUz1hlRQP4QsA==}
+  /@refinedev/core@4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-J2bsJTZ+pkqwXlkH84oauPkc0O9P6m+39FF7TgvvkKzu7XKIg/ifoeG1PDMy5Nxgdb9oiJLr0H4YQYKNi8JErA==}
     peerDependencies:
       '@tanstack/react-query': ^4.10.1
       '@types/react': ^17.0.0 || ^18.0.0
@@ -2183,11 +2186,10 @@ packages:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
-      '@refinedev/devtools-internal': 1.1.4(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-internal': 1.1.5(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
-      export-to-csv-fix-source-map: 0.2.1
       lodash: 4.17.21
       lodash-es: 4.17.21
       papaparse: 5.4.1
@@ -2201,8 +2203,8 @@ packages:
       - react-native
     dev: false
 
-  /@refinedev/devtools-internal@1.1.4(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-AuXlKRdDZ8POC1B2DMa3AzSICN3LmKebmsMUry3+T9xc7TkL2lGy3anqJnBOQw8asWd5fr+vz1UYjdVcvqUqJA==}
+  /@refinedev/devtools-internal@1.1.5(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-24yE9r6rnTcCAe35XqmeiL5oL9FlodAOAPo4joMxu2SDzBNndh1ZdEEuFxoLd9t9CYu46cjLKQhaWcWWC2Ii3A==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -2210,7 +2212,7 @@ packages:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
-      '@refinedev/devtools-shared': 1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-shared': 1.1.3(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
@@ -2221,8 +2223,8 @@ packages:
       - react-native
     dev: false
 
-  /@refinedev/devtools-server@1.1.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-iLh+tsqBGN2ypfU+d0MMicYrNzZdTlb2ufgo06lBMzeeGwx9vbQqJ7eX32Mh2T4jrL1yc/XAcUxuIdTLpwor5w==}
+  /@refinedev/devtools-server@1.1.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-4nKBhOKBOSPdO6LGfZnk0XmJ74TSQ/MQ2h5204aQgM1znPhPNnLERsTzKL6b0vHoli/EKzm0nRFcTfFJ0WOEUg==}
     engines: {node: '>=10'}
     hasBin: true
     peerDependencies:
@@ -2232,8 +2234,8 @@ packages:
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
       '@ory/client': 1.5.2
-      '@refinedev/devtools-shared': 1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/devtools-ui': 1.1.15(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-shared': 1.1.3(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-ui': 1.1.17(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
       body-parser: 1.20.2
@@ -2267,8 +2269,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@refinedev/devtools-shared@1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ze+akDLtCblBBEZuFTYoiAu1CfEdzBRBdttVaLJEAgSNdMva9vpbV/7gG5yTQRIIi4kIdfghphwrGHBxOOKjXQ==}
+  /@refinedev/devtools-shared@1.1.3(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-3xtVUwMGWwwnufDL+QDEdMkoi+qLQllefil+y5UyNsDuEIeh9xcNn/Uxl/N27lObA+zakHX9QOR++lR8SQ+TnQ==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -2286,8 +2288,8 @@ packages:
       - react-native
     dev: false
 
-  /@refinedev/devtools-ui@1.1.15(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-bxAbeJSXhOOBFPP4dtn6WyTZHmaOPZGzhCWJUWqv88HDIA18S7FkbvcTj5AByex49dT8FX14q3xn9NYAJiAsJg==}
+  /@refinedev/devtools-ui@1.1.17(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-bV9FjWBYIB73pwSS/2jBbmWznqxvBHSXXk9cNqY+FhqKHWBUznFs5c64YimCBRZajcdGeFZhiJ8FZhC8l5T8vw==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
@@ -2298,7 +2300,7 @@ packages:
       '@fireworks-js/react': 2.10.7(@types/react@18.2.48)(react@18.2.0)
       '@headlessui/react': 1.7.18(react-dom@18.2.0)(react@18.2.0)
       '@ory/client': 1.5.2
-      '@refinedev/devtools-shared': 1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-shared': 1.1.3(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-table': 8.11.7(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
@@ -2318,23 +2320,23 @@ packages:
       - react-native
     dev: false
 
-  /@refinedev/devtools@1.1.30(@refinedev/cli@2.16.22)(@refinedev/core@4.46.2)(@refinedev/devtools-server@1.1.22)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ll0YqcdFVmBJRgK1m1nzrptSnO4oZDYS7JLXj0PAix+EsaIneSdOdgaSBtffQ7GEXmKOO6GTQrP3GSURNCwtxw==}
+  /@refinedev/devtools@1.1.32(@refinedev/cli@2.16.24)(@refinedev/core@4.47.1)(@refinedev/devtools-server@1.1.24)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xFtIiYUjbvqhz0iKFl/CZZOajIOuHWmprSwOt85qdTAF3VkUzwDiPdK/6QdgcBgCZ7aToWu1jFKyGs5h4uIiXA==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@refinedev/cli': 2.16.22
+      '@refinedev/cli': 2.16.24
       '@refinedev/core': ^4.46.1
-      '@refinedev/devtools-server': 1.1.22
+      '@refinedev/devtools-server': 1.1.24
       '@types/react': ^17.0.0 || ^18.0.0
       '@types/react-dom': ^17.0.0 || ^18.0.0
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
       '@aliemir/dom-to-fiber-utils': 0.4.0
-      '@refinedev/cli': 2.16.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/devtools-server': 1.1.22(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/devtools-shared': 1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/cli': 2.16.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-server': 1.1.24(@babel/preset-env@7.23.9)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/devtools-shared': 1.1.3(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
       error-stack-parser: 2.1.4
@@ -2346,8 +2348,8 @@ packages:
       - react-native
     dev: false
 
-  /@refinedev/inferencer@4.5.17(@ant-design/icons@5.2.6)(@refinedev/antd@5.37.2)(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-s/g4bzxiXJq020sT1cQTeeSLqNg245VxCWTSYbo0pPDlY/d89A7mkT7o4Bv0DtINeQFTa51J6D7+E17y4xvaQQ==}
+  /@refinedev/inferencer@4.5.20(@ant-design/icons@5.2.6)(@refinedev/antd@5.37.4)(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(graphql-tag@2.12.6)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-3BlTrhmMijzhoWuVbnez2VbtINPp1YV+ZZFv7mg5eRYgV1pfjacz10EjIsmhihQ51W/1NhLG4kkp+SzYBWjTkA==}
     peerDependencies:
       '@ant-design/icons': 5.0.1
       '@chakra-ui/react': ^2.5.1
@@ -2372,6 +2374,7 @@ packages:
       '@types/react-dom': ^17.0.0 || ^18.0.0
       antd: ^5.0.3
       dayjs: ^1.10.7
+      graphql-tag: ^2.12.6
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
       react-hook-form: ^7.30.0
@@ -2414,18 +2417,22 @@ packages:
         optional: true
       dayjs:
         optional: true
+      graphql-tag:
+        optional: true
       react-hook-form:
         optional: true
     dependencies:
       '@aliemir/react-live': 4.0.0(react@18.2.0)
       '@ant-design/icons': 5.2.6(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/antd': 5.37.2(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/antd': 5.37.4(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(antd@5.13.3)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@tabler/icons': 1.119.0(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
       antd: 5.13.3(react-dom@18.2.0)(react@18.2.0)
       dayjs: 1.11.10
+      graphql: 15.8.0
+      graphql-tag: 2.12.6(graphql@16.8.1)
       lodash: 4.17.21
       lodash-es: 4.17.21
       pluralize: 8.0.0
@@ -2440,15 +2447,15 @@ packages:
       - supports-color
     dev: false
 
-  /@refinedev/kbar@1.3.5(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-bb0SURbi1fubJx5RD6FPrlq9YbvFVdoLUIbf69hW1UslSTdC9bgXU6raWKCosKWrFyt7Au7CVVP8IqSXoIgb6w==}
+  /@refinedev/kbar@1.3.6(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-5eDnrEeyY0INJWgbXPimmPMq1lrcRv80kQmU+PCuTZZwz6GwFXdpp4Oxyf/PQdxfea9yFyXpfkmLe0P7KSewXw==}
     engines: {node: '>=10'}
     peerDependencies:
       '@refinedev/core': ^4.46.1
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       kbar: 0.1.0-beta.45(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2457,7 +2464,7 @@ packages:
       - '@types/react-dom'
     dev: false
 
-  /@refinedev/nestjs-query@1.1.1(@refinedev/core@4.46.2)(gql-query-builder@3.8.0)(graphql-request@5.2.0)(graphql-tag@2.12.6)(graphql-ws@5.14.3):
+  /@refinedev/nestjs-query@1.1.1(@refinedev/core@4.47.1)(gql-query-builder@3.8.0)(graphql-request@5.2.0)(graphql-tag@2.12.6)(graphql-ws@5.14.3):
     resolution: {integrity: sha512-noAGBvcaKp4RjzauDLRTJJR/Pr6x2uivfLaJxb61Nwh2U65cMfCXaW8p10IokurQFLDmDvPgzhF0rnIodlolrA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2467,7 +2474,7 @@ packages:
       graphql-tag: ^2.12.6
       graphql-ws: ^5.9.1
     dependencies:
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       camelcase: 6.3.0
       gql-query-builder: 3.8.0
       graphql: 15.8.0
@@ -2479,7 +2486,7 @@ packages:
       pluralize: 8.0.0
     dev: false
 
-  /@refinedev/react-router-v6@4.5.5(@refinedev/core@4.46.2)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react-router-dom@6.21.3)(react@18.2.0):
+  /@refinedev/react-router-v6@4.5.5(@refinedev/core@4.47.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react-router-dom@6.21.3)(react@18.2.0):
     resolution: {integrity: sha512-yk49SJvyH+hXgqWR7D6B21CxUd+0gllAzc6eWkWM2jTTtWUovWD2McXR/BQn4gWs7KjFCm5nIrAoKmy2FAFjGQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2490,7 +2497,7 @@ packages:
       react-dom: ^17.0.0 || ^18.0.0
       react-router-dom: ^6.8.1
     dependencies:
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.48
       '@types/react-dom': 18.2.18
       qs: 6.11.2
@@ -2499,14 +2506,14 @@ packages:
       react-router-dom: 6.21.3(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
-  /@refinedev/ui-types@1.22.4(@refinedev/core@4.46.2)(react-dom@18.2.0)(react@18.2.0):
+  /@refinedev/ui-types@1.22.4(@refinedev/core@4.47.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-IMgDazFSePPO7BDOfnGnrvfi/2onnSAmtaujkW9sPEibb+sjaJ7SX7NJLqI5Zp8w/hb0T0tO4ezGFvaFVVPoYw==}
     peerDependencies:
       '@refinedev/core': ^4.46.1
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
-      '@refinedev/core': 4.46.2(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@refinedev/core': 4.47.1(@tanstack/react-query@4.36.1)(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
       dayjs: 1.11.10
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3537,7 +3544,7 @@ packages:
       json-schema-typed: 7.0.3
       onetime: 5.1.2
       pkg-up: 3.1.0
-      semver: 7.3.8
+      semver: 7.5.4
     dev: false
 
   /content-disposition@0.5.4:
@@ -4020,10 +4027,6 @@ packages:
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /export-to-csv-fix-source-map@0.2.1:
-    resolution: {integrity: sha512-02CGZG9Kduc0l9ErJ5b+99+PjeQIyoeVGz+f7/Yc04V4YKNPbdT63sQqBC5RW05va4w0MZen7pQpf92H3funYw==}
     dev: false
 
   /express@4.18.2:
@@ -6936,7 +6939,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: true
 
   /send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
