@@ -67,6 +67,12 @@ devDependencies:
   '@graphql-codegen/typescript':
     specifier: ^4.0.6
     version: 4.0.6(graphql@16.8.1)
+  '@graphql-codegen/typescript-operations':
+    specifier: ^4.2.0
+    version: 4.2.0(graphql@16.8.1)
+  '@graphql-codegen/typescript-resolvers':
+    specifier: ^4.0.6
+    version: 4.0.6(graphql@16.8.1)
   '@types/node':
     specifier: ^18.16.2
     version: 18.19.10
@@ -2141,22 +2147,6 @@ packages:
       - supports-color
     dev: false
 
-  /@graphql-codegen/typescript-operations@4.1.2(graphql@16.8.1):
-    resolution: {integrity: sha512-CtCWK+gW7hS+Ely3lohr8CL1HVLswQzMcaUk3k1sxdWCWKTNq7abMsWa31rTVwRCJ+WNEkM/7S8sIBTpEG683A==}
-    peerDependencies:
-      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-    dependencies:
-      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@16.8.1)
-      '@graphql-codegen/typescript': 4.0.6(graphql@16.8.1)
-      '@graphql-codegen/visitor-plugin-common': 4.1.2(graphql@16.8.1)
-      auto-bind: 4.0.0
-      graphql: 16.8.1
-      tslib: 2.6.2
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-    dev: false
-
   /@graphql-codegen/typescript-operations@4.2.0(graphql@16.8.1):
     resolution: {integrity: sha512-lmuwYb03XC7LNRS8oo9M4/vlOrq/wOKmTLBHlltK2YJ1BO/4K/Q9Jdv/jDmJpNydHVR1fmeF4wAfsIp1f9JibA==}
     peerDependencies:
@@ -2171,16 +2161,15 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: true
 
-  /@graphql-codegen/typescript-resolvers@4.0.4(graphql@16.8.1):
-    resolution: {integrity: sha512-o1FEbvoTgF32n2YL8dJmtRYlIjKy16hyQz+co5Mj9yR9c1CtWrvjnlB7WeTAVJRhasqYloXXfLXb+efhMkUl9A==}
+  /@graphql-codegen/typescript-resolvers@4.0.6(graphql@16.8.1):
+    resolution: {integrity: sha512-7OBFzZ2xSkYgMgcc1A3xNqbBHHSQXBesLrG86Sh+Jj0PQQB3Om8j1HSFs64PD/l5Kri2dXgm3oim/89l3Rl3lw==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.0.3(graphql@16.8.1)
       '@graphql-codegen/typescript': 4.0.6(graphql@16.8.1)
-      '@graphql-codegen/visitor-plugin-common': 4.1.2(graphql@16.8.1)
+      '@graphql-codegen/visitor-plugin-common': 5.1.0(graphql@16.8.1)
       '@graphql-tools/utils': 10.1.2(graphql@16.8.1)
       auto-bind: 4.0.0
       graphql: 16.8.1
@@ -2188,7 +2177,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: false
 
   /@graphql-codegen/typescript@4.0.6(graphql@16.8.1):
     resolution: {integrity: sha512-IBG4N+Blv7KAL27bseruIoLTjORFCT3r+QYyMC3g11uY3/9TPpaUyjSdF70yBe5GIQ6dAgDU+ENUC1v7EPi0rw==}
@@ -2306,8 +2294,8 @@ packages:
       '@graphql-codegen/typed-document-node': 5.0.4(graphql@16.8.1)
       '@graphql-codegen/typescript': 4.0.6(graphql@16.8.1)
       '@graphql-codegen/typescript-generic-sdk': 3.1.0(graphql-tag@2.12.6)(graphql@16.8.1)
-      '@graphql-codegen/typescript-operations': 4.1.2(graphql@16.8.1)
-      '@graphql-codegen/typescript-resolvers': 4.0.4(graphql@16.8.1)
+      '@graphql-codegen/typescript-operations': 4.2.0(graphql@16.8.1)
+      '@graphql-codegen/typescript-resolvers': 4.0.6(graphql@16.8.1)
       '@graphql-mesh/config': 0.98.5(@graphql-mesh/cross-helpers@0.4.1)(@graphql-mesh/runtime@0.97.5)(@graphql-mesh/store@0.96.4)(@graphql-mesh/types@0.96.4)(@graphql-mesh/utils@0.96.4)(@graphql-tools/utils@10.0.13)(graphql-yoga@5.1.1)(graphql@16.8.1)(tslib@2.6.2)
       '@graphql-mesh/cross-helpers': 0.4.1(@graphql-tools/utils@10.0.13)(graphql@16.8.1)
       '@graphql-mesh/http': 0.97.5(@graphql-mesh/cross-helpers@0.4.1)(@graphql-mesh/runtime@0.97.5)(@graphql-mesh/types@0.96.4)(@graphql-mesh/utils@0.96.4)(graphql@16.8.1)(tslib@2.6.2)
